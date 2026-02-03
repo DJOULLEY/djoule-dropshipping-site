@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#374151;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B7280;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="steel" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#9CA3AF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D1D5DB;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Steel bars -->
+  <rect x="180" y="200" width="40" height="200" fill="url(#steel)" rx="3"/>
+  <rect x="280" y="200" width="40" height="200" fill="url(#steel)" rx="3"/>
+  <rect x="380" y="200" width="40" height="200" fill="url(#steel)" rx="3"/>
+  <rect x="480" y="200" width="40" height="200" fill="url(#steel)" rx="3"/>
+  <rect x="580" y="200" width="40" height="200" fill="url(#steel)" rx="3"/>
+  
+  <!-- Steel rod details -->
+  <circle cx="200" cy="200" r="20" fill="#6B7280"/>
+  <circle cx="300" cy="200" r="20" fill="#6B7280"/>
+  <circle cx="400" cy="200" r="20" fill="#6B7280"/>
+  <circle cx="500" cy="200" r="20" fill="#6B7280"/>
+  <circle cx="600" cy="200" r="20" fill="#6B7280"/>
+  
+  <circle cx="200" cy="400" r="20" fill="#6B7280"/>
+  <circle cx="300" cy="400" r="20" fill="#6B7280"/>
+  <circle cx="400" cy="400" r="20" fill="#6B7280"/>
+  <circle cx="500" cy="400" r="20" fill="#6B7280"/>
+  <circle cx="600" cy="400" r="20" fill="#6B7280"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">ACIER DE CONSTRUCTION</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">Barres d'Acier Renforcées</text>
+</svg>

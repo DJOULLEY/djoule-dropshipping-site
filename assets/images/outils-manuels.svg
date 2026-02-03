@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#7C2D12;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#DC2626;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="tool" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Hammer -->
+  <rect x="180" y="200" width="80" height="20" fill="#6B7280" rx="3"/>
+  <rect x="210" y="220" width="20" height="100" fill="url(#tool)" rx="3"/>
+  
+  <!-- Wrench -->
+  <rect x="340" y="180" width="20" height="140" fill="url(#tool)" rx="3"/>
+  <circle cx="350" cy="170" r="15" fill="url(#tool)"/>
+  <rect x="345" y="155" width="10" height="30" fill="url(#tool)"/>
+  
+  <!-- Screwdriver -->
+  <rect x="480" y="200" width="15" height="120" fill="url(#tool)" rx="3"/>
+  <rect x="475" y="180" width="25" height="30" fill="#6B7280" rx="3"/>
+  <rect x="472" y="320" width="31" height="8" fill="#EF4444"/>
+  
+  <!-- Pliers -->
+  <rect x="600" y="200" width="60" height="15" fill="url(#tool)" rx="3"/>
+  <rect x="620" y="215" width="20" height="80" fill="#6B7280" rx="3"/>
+  <rect x="610" y="195" width="40" height="10" fill="url(#tool)"/>
+  <rect x="610" y="185" width="10" height="20" fill="url(#tool)"/>
+  <rect x="640" y="185" width="10" height="20" fill="url(#tool)"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">OUTILLAGE</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">Outils Professionnels de Qualité</text>
+</svg>

@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://votre-domaine.pages.dev/sitemap.xml
+
+# Priorités pour les robots
+Crawl-delay: 1

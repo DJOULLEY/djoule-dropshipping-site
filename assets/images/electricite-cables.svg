@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FCD34D;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cable" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#1F2937;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#4B5563;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1F2937;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Electrical cables -->
+  <path d="M100 200 Q 400 150, 700 200" stroke="url(#cable)" stroke-width="15" fill="none"/>
+  <path d="M100 250 Q 400 200, 700 250" stroke="url(#cable)" stroke-width="15" fill="none"/>
+  <path d="M100 300 Q 400 250, 700 300" stroke="url(#cable)" stroke-width="15" fill="none"/>
+  <path d="M100 350 Q 400 300, 700 350" stroke="url(#cable)" stroke-width="15" fill="none"/>
+  
+  <!-- Cable cores -->
+  <circle cx="100" cy="200" r="10" fill="#EF4444"/>
+  <circle cx="100" cy="250" r="10" fill="#10B981"/>
+  <circle cx="100" cy="300" r="10" fill="#3B82F6"/>
+  <circle cx="100" cy="350" r="10" fill="#F59E0B"/>
+  
+  <circle cx="700" cy="200" r="10" fill="#EF4444"/>
+  <circle cx="700" cy="250" r="10" fill="#10B981"/>
+  <circle cx="700" cy="300" r="10" fill="#3B82F6"/>
+  <circle cx="700" cy="350" r="10" fill="#F59E0B"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="24" fill="#1F2937" text-anchor="middle" font-weight="bold">ÉLECTRICITÉ</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#7C2D12" text-anchor="middle">Cables Électriques Professionnels</text>
+</svg>

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bolt" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#D1D5DB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#6B7280;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Bolts and nuts representation -->
+  <circle cx="200" cy="200" r="40" fill="url(#bolt)"/>
+  <rect x="170" y="200" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <circle cx="350" cy="200" r="40" fill="url(#bolt)"/>
+  <rect x="320" y="200" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <circle cx="500" cy="200" r="40" fill="url(#bolt)"/>
+  <rect x="470" y="200" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <circle cx="200" cy="350" r="40" fill="url(#bolt)"/>
+  <rect x="170" y="350" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <circle cx="350" cy="350" r="40" fill="url(#bolt)"/>
+  <rect x="320" y="350" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <circle cx="500" cy="350" r="40" fill="url(#bolt)"/>
+  <rect x="470" y="350" width="60" height="20" fill="#9CA3AF" rx="2"/>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">QUINCAILLERIE</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">Visserie et Boulonnerie</text>
+</svg>

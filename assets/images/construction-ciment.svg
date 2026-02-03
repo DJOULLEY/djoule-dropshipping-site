@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3A8A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#2563eb;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cement" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B7280;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#9CA3AF;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#bg)"/>
+  
+  <!-- Cement bags representation -->
+  <rect x="200" y="150" width="150" height="100" fill="url(#cement)" rx="5" opacity="0.9"/>
+  <rect x="380" y="150" width="150" height="100" fill="url(#cement)" rx="5" opacity="0.9"/>
+  <rect x="290" y="280" width="150" height="100" fill="url(#cement)" rx="5" opacity="0.9"/>
+  
+  <!-- Text on cement bags -->
+  <text x="275" y="205" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">CEMENT</text>
+  <text x="455" y="205" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">CEMENT</text>
+  <text x="365" y="335" font-family="Arial, sans-serif" font-size="16" fill="white" text-anchor="middle" font-weight="bold">CEMENT</text>
+  
+  <!-- Title -->
+  <text x="400" y="450" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle" font-weight="bold">MATÉRIEL DE CONSTRUCTION</text>
+  <text x="400" y="480" font-family="Arial, sans-serif" font-size="16" fill="#F59E0B" text-anchor="middle">Ciment de Qualité Supérieure</text>
+</svg>
